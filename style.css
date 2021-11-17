@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1547149600-a6cdf8fce60c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  line-height: 50px;
+}
+
+.nav-center {
+  margin: auto;
+}
+
+.nav-center a {
+  margin-right: 30px;
+}
+
+.nav-center a:hover {
+  color: orange;
+}
+
+.logo {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
+.search-logo {
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.content {
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+
+.content .heading {
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+.content .heading i {
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.labels {
+  /* display: flex; */
+  margin: auto;
+  text-align: center;
+  /* justify-content: center; */
+  margin-top: 50px;
+  color: #fff;
+  width: 100%;
+  line-height: inherit;
+}
+
+.labels i {
+  margin-right: 60px;
+  margin-top: 20px;
+}
+
+.left-arrow {
+  float: left;
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+.label-content i {
+  margin-right: 140px;
+}
+
+.right-arrow {
+  float: right;
+  margin-top: -90px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.button1 {
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: auto;
+  margin-top: 90px;
+  margin-right: -30%;
+}
+.button1 a {
+  color: #000;
+}
+
+.button2 {
+  width: 120px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 5px;
+  background-color: cadetblue;
+  margin: auto;
+  margin-top: 90px;
+}
